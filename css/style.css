@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(../images/bg.jpg);        
+}
+.testimonials {
+    border: 2px solid white;
+    width: 60%;
+    height: 40%;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+img{
+    position: fixed;
+    top: 10%;
+    left: 42%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.testimonials p{
+    width: 70%;
+    margin-left: 15%
+    
+}
+.testimonials h4{
+    margin-top: 40px;
+    margin-bottom: 10px
+}
+.rating{
+    height: 30px;
+    width: 70%;
+    margin-left: 37%;
+    margin-bottom: 60px
+}
+
+body .rating > div{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+body .rating > div > div{
+    width: 15px;
+    height: 30px;
+    padding: 0;
+    position: relative;
+    top: 30px
+}
+#left{
+    cursor: pointer;
+    float: left;
+    position: fixed;
+    left: 14%;
+    top: 40%
+}
+#right{
+    cursor: pointer;
+    float: right;
+    position: fixed;
+    left: 76%;
+    top: 40%
+}
